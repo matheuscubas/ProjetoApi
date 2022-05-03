@@ -7,7 +7,7 @@
 namespace DesafioDesafiante.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstCommit : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -60,8 +60,8 @@ namespace DesafioDesafiante.Migrations
                 columns: new[] { "Id", "Password", "RoleId", "Username" },
                 values: new object[,]
                 {
-                    { 1, "$2a$11$3J5fgkjoVqUI5WORu17hFuNq.ayIkHilFe6hg.E1ZvYVcPNQI02Su", 1, "Matheus" },
-                    { 2, "$2a$11$4XxCQQUAp925lJ40d.WNzOCFc6DF./7eQzvLaj1RTJ0wxz9/kQ4dS", 2, "PrimeiroCliente" }
+                    { 1, "$2a$11$OKVFFWPTEOc/0aArH7dKau27Sz5Gi7tMvqrCwwLJ0P9UoO0PYL8si", 1, "Matheus" },
+                    { 2, "$2a$11$y7r8JQLFzfRVSEZDxkEXC.XJTRI36.byJjFJoueEGzil.imdMr4OW", 2, "PrimeiroCliente" }
                 });
 
             migrationBuilder.CreateIndex(

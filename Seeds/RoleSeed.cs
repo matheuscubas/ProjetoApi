@@ -7,7 +7,7 @@ namespace DesafioDesafiante.Seeds
 {
     public class RoleSeed : ISeeder
     {
-        public void SeedData(ModelBuilder builder, [FromServices] PasswordService? _passwordService = null)
+        public void SeedData(ModelBuilder builder, PasswordService? passwordService = null)
         {
             builder.Entity<Role>().HasData(
                 new Role

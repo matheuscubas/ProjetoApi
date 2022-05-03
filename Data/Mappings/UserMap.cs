@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DesafioDesafiante.Mappings
+namespace DesafioDesafiante.Data.Mappings
 {
     public class UserMap : IEntityTypeConfiguration<User>
     {

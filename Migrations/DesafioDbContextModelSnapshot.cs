@@ -79,14 +79,14 @@ namespace DesafioDesafiante.Migrations
                         new
                         {
                             Id = 1,
-                            Password = "$2a$11$3J5fgkjoVqUI5WORu17hFuNq.ayIkHilFe6hg.E1ZvYVcPNQI02Su",
+                            Password = "$2a$11$OKVFFWPTEOc/0aArH7dKau27Sz5Gi7tMvqrCwwLJ0P9UoO0PYL8si",
                             RoleId = 1,
                             Username = "Matheus"
                         },
                         new
                         {
                             Id = 2,
-                            Password = "$2a$11$4XxCQQUAp925lJ40d.WNzOCFc6DF./7eQzvLaj1RTJ0wxz9/kQ4dS",
+                            Password = "$2a$11$y7r8JQLFzfRVSEZDxkEXC.XJTRI36.byJjFJoueEGzil.imdMr4OW",
                             RoleId = 2,
                             Username = "PrimeiroCliente"
                         });

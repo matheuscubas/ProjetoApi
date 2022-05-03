@@ -44,7 +44,6 @@ namespace DesafioDesafiante.Controllers
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
 
-            // retornar objeto e não user.
             return Ok(new ActionResultViewModel<RegisterViewModel>(model));
         }
 

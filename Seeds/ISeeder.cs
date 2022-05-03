@@ -7,6 +7,6 @@ namespace DesafioDesafiante.Seeds
     public interface ISeeder
     {
         // um metodo void ModelBuilder
-        public void SeedData(ModelBuilder builder, [FromServices] PasswordService? _passwordService = null);
+        public void SeedData(ModelBuilder builder, PasswordService? passwordService = null);
     }
 }

@@ -7,7 +7,7 @@ namespace DesafioDesafiante.Seeds
 {
     public class UserSeed : ISeeder
     {
-        public void SeedData(ModelBuilder builder, PasswordService _passwordService)
+        public void SeedData(ModelBuilder builder, PasswordService passwordService)
         {
             builder.Entity<User>().HasData(
                 new User
@@ -15,14 +15,14 @@ namespace DesafioDesafiante.Seeds
 
                     Id = 1,
                     Username = "Matheus",
-                    Password = _passwordService.EncryptPassword("teste123"),
+                    Password = passwordService.EncryptPassword("teste123"),
                     RoleId = 1
                 },
                 new User
                 {
                     Id = 2,
                     Username = "PrimeiroCliente",
-                    Password = _passwordService.EncryptPassword("secreto123"),
+                    Password = passwordService.EncryptPassword("secreto123"),
                     RoleId = 2
                 }
                 );
